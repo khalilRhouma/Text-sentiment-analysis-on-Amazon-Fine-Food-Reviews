@@ -12,7 +12,7 @@ The subject actually is a competition on Kaggle and you can find the dataset and
 
 ## II. Dataset overview 
 This an overview of the current dataset: 
-![](image\dataset_overview.png)
+![](image/dataset_overview.png)
 
 > **id**: Row IdProductId: Unique identifier for the product
 
@@ -36,7 +36,7 @@ This an overview of the current dataset:
 ## 1. Data preparation, removing duplicates and nan values
 
 > Prepare the data after doing the cleaning and removing the stop words and this is the output of the cleaned text:
-![](image\cleaned_text.png)
+![](image/cleaned_text.png)
 
 As the image above shows, our target will be the **Score**.
 
@@ -62,14 +62,14 @@ this example illustrate the usage of the embedding model:
 # V. Building a binary classifier "good" or "bad"
 
 In this section, we transform the **Score** to binary score which means that we transform the score to 0:**bad** and 1:**good** . 
-![](image\binary_score.png)
+![](image/binary_score.png)
 Then, we prepare the data and we use some common classifier Models such as **RandomForestClassifier** and **LogisticRegression** .
 
 # VI. Modeling with Deep learning
 
 We came then to the **big** part for our project. In this section, we use LSTM units to build our **Deep Learning** model.
 
-![](image\model.png)
+![](image/model.png)
 
 Then we train the model on our data to make a classifier that classify a given text input rating from 1 to 5 . 
 
@@ -77,7 +77,7 @@ This two figure below will illustrate the performance of our model.
 
 ### This figure shows the accuracy of our model.
 
-![](image\accuracy.png)
+![](image/accuracy.png)
 
 ### This figure shows the loss of our model.
-![](image\loss.png)
+![](image/loss.png)
