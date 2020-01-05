@@ -6,9 +6,9 @@
 
 The subject actually is a competition on Kaggle and you can find the dataset and competition [here](https://www.kaggle.com/snap/amazon-fine-food-reviews#Reviews.csv).
 
-> ### Data description
+### Data description
 
-> The [dataset](https://www.kaggle.com/snap/amazon-fine-food-reviews) consists of reviews of fine foods from amazon. The data span a period of more than 10 years, including all ~500,000 reviews up to October 2012. Reviews include product and user information, ratings, and a plain text review. It also includes reviews from all other Amazon categories.
+The [dataset](https://www.kaggle.com/snap/amazon-fine-food-reviews) consists of reviews of fine foods from amazon. The data span a period of more than 10 years, including all ~500,000 reviews up to October 2012. Reviews include product and user information, ratings, and a plain text review. It also includes reviews from all other Amazon categories.
 
 ## II. Dataset overview 
 This an overview of the current dataset: 
@@ -35,7 +35,7 @@ This an overview of the current dataset:
 
 ## 1. Data preparation, removing duplicates and nan values
 
-> Prepare the data after doing the cleaning and removing the stop words and this is the output of the cleaned text:
+Prepare the data after doing the cleaning and removing the stop words and this is the output of the cleaned text:
 ![](image/cleaned_text.png)
 
 As the image above shows, our target will be the **Score**.
