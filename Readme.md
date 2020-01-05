@@ -1,8 +1,8 @@
 # **Text sentiment analysis on Amazon Fine Food Reviews**
 
-## I. Subject and Data description
+> Note: This work was done by the help of my colleague [Hamza Ghanmi](https://github.com/ghanmi-hamza?fbclid=IwAR3JAkKdgWIDr45sPyT65Dbytb1O-zjCq6PGZ648Q3h5SLfqMLNMg_fAUpg) as it is an academic project in our Engineering class.
 
-> This work was done by the help of my colleague [Hamza Ghanmi](https://github.com/ghanmi-hamza?fbclid=IwAR3JAkKdgWIDr45sPyT65Dbytb1O-zjCq6PGZ648Q3h5SLfqMLNMg_fAUpg) as it is an academic project in our Engineering class.
+## I. Subject and Data description
 
 The subject actually is a competition on Kaggle and you can find the dataset and competition [here](https://www.kaggle.com/snap/amazon-fine-food-reviews#Reviews.csv).
 
@@ -46,9 +46,11 @@ In this section we parse all the review text to be tokenized and then fed it to 
 
 this example illustrate the usage of the embedding model:
 
-`> model.wv.most_similar("eat")`
+> 
+```
+model.wv.most_similar("eat")
 
-`[('consume', 0.6087640523910522),
+    [('consume', 0.6087640523910522),
     ('devour', 0.602520227432251),
     ('feed', 0.5977225303649902),
     ('eating', 0.5680657029151917),
@@ -57,7 +59,8 @@ this example illustrate the usage of the embedding model:
     ('spoil', 0.5139713883399963),
     ('indulge', 0.5034332275390625),
     ('tolerate', 0.46549955010414124),
-    ('chew', 0.4479042887687683)] `
+    ('chew', 0.4479042887687683)] 
+```
 
 # V. Building a binary classifier "good" or "bad"
 
