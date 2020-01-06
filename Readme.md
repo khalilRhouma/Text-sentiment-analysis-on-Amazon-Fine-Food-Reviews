@@ -14,7 +14,8 @@ The [dataset](https://www.kaggle.com/snap/amazon-fine-food-reviews) consists of 
 This an overview of the current dataset: 
 ![](image/dataset_overview.png)
 
-> **id**: Row IdProductId: Unique identifier for the product
+> **id**: Row Id
+> **ProductId**: Unique identifier for the product
 
 > **UserId**: Unique identifier for the user
 
