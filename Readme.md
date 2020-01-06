@@ -15,6 +15,7 @@ This an overview of the current dataset:
 ![](image/dataset_overview.png)
 
 > **id**: Row Id
+
 > **ProductId**: Unique identifier for the product
 
 > **UserId**: Unique identifier for the user
