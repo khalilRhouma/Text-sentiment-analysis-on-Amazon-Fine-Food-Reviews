@@ -68,6 +68,7 @@ model.wv.most_similar("eat")
 
 In this section, we transform the **Score** to binary score which means that we transform the score to 0:**bad** and 1:**good** . 
 ![](image/binary_score.png)
+
 Then, we prepare the data and we use some common classifier Models such as **RandomForestClassifier** and **LogisticRegression** .
 
 # VI. Modeling with Deep learning
